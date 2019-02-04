@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "516732846513",
+    "firebase_url": "https://portalberita-e4747.firebaseio.com",
+    "project_id": "portalberita-e4747",
+    "storage_bucket": "portalberita-e4747.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516732846513:android:16da7924cd8dd8d6",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.portalberita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516732846513-olliccftfm50k05amv2vc0r1kso10ugi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIQyXLhZ0MiShndwU9qf_4iGYWVSAWkow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

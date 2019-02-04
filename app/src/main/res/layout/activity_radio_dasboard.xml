@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    >
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/radio1"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/radio1"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/buttonHome"
+                android:onClick="onClick"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/icon_home4" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/colorPrimaryMedium">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/radio2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/radio2_4"
+                android:onClick="onClick" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/colorPrimaryMedium">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/radio3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/radio3"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/colorAccent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:onClick="onClick"
+                android:id="@+id/radio4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/radio_4_1"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</android.support.v7.widget.GridLayout>

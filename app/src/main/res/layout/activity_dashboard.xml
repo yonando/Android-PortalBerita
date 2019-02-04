@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/imageRadio"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/imageNews"
+        android:layout_alignStart="@+id/imageNews"
+        android:layout_alignLeft="@+id/imageNews"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/icon_radio2"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/imageNews"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/kancut"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onClick"
+        android:text="LOGOUT" />
+</RelativeLayout>
